@@ -1,0 +1,169 @@
+/* ======================================================Home======================================================== */
+.home {
+    background-image: url(images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 6rem;
+}
+
+.back-g {
+    background-color: rgba(214, 46, 51, 0.6)
+}
+
+.content {
+    padding-bottom: 6rem;
+     position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% , -50%);
+}
+
+.content h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    color: #ffffff;
+
+}
+
+.content p {
+    line-height: 1.5rem;
+    color: #ffffff;
+   
+}
+
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.5625rem;
+    color: #ffffff;
+}
+
+.slidebox ul li a:hover {
+    color: #801c1f;
+}
+
+nav {
+    width: 15rem;
+    height: 100vh;
+    padding-left: 2rem;
+    z-index: 9999999999;
+}
+
+.fristli {
+    padding-top: 5rem;
+}
+
+.closebtn {
+    top: 1.5rem;
+    right: 2rem;
+    color: #ffffff;
+}
+
+.closebtn:hover {
+    color: #801c1f;
+}
+
+.open {
+    color: #ffffff;
+    left: 16rem;
+    z-index: 9999999999;
+    position: absolute;
+    top: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: auto;
+    }
+}
+
+/* ======================================================Duration======================================================== */
+.slider h3 {
+    background-color: #e68285;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.textcontent {
+    background-color: #cccccc;
+    display: none;
+}
+
+.slider {
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+.pop {
+    background-color: #cccccc;
+    display: block;
+}
+
+/* ======================================================Contact======================================================== */
+.slidertwo {
+    height: 20.625rem;
+}
+
+.bg-slider {
+    background-color: rgba(214, 46, 51, 0.6)
+}
+
+.time,
+.days {
+    border: 0.1rem solid white;
+    width: 16rem;
+    height: 9rem;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+
+.time,
+.days span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.slidtime {
+    padding-top: 6rem;
+}
+
+/* ======================================================Contact======================================================== */
+strong {
+    font-size: 1.125rem;
+}
+
+.head,
+.icons p {
+    color: #777777;
+    margin-top: 12rem;
+}
+
+.pred,
+.colred {
+    color: #d62e33;
+}
+
+.textcoler {
+    color: #212529;
+}
+
+.tarea {
+    padding-bottom: 8rem;
+}
+
+.head h2 {
+    color: #212529;
+    font-weight: bold;
+}
+
+.icons i {
+    border: 1px solid slategray;
+}
+
+i:hover {
+    color: white;
+    background-color: #d62e33;
+}
